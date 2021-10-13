@@ -116,14 +116,17 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 width: 100%;
+height:75vh;
 background-color: rgb(34, 37, 75);
 `
+
 
 export const Item = styled.ul`
     list-style: none;  
     align-itens: center;
-    position: relative;
-    left:35%;
+    position: absolute;
+    left: 50%;
+    top: 127%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -175,7 +178,7 @@ export const ContainerGifTxt = styled.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
-width: 63%;
+width: 58%;
 height: 50vh;
 `
 export const BoxTxtGif = styled.div`
@@ -288,14 +291,16 @@ text-align: center;
 `
 
 export const SixthSection = styled.section`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 75%;
-    flex-direction: row;
-    position: relative;
-    bottom: 80px;
-    left: 300px
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 59.4vw;
+width: 60%;
+flex-direction: row;
+position: relative;
+bottom: 97px;
+left: 20.25%;
+height: 68vh;
     
 `
 export const ContainerBoxCards = styled.div`
@@ -401,7 +406,7 @@ width: 80%;
 margin: 1.5rem 0px 0.5rem;
 animation: 3.5s ease 0s 1 normal none running fdBcwW;
 opacity: 1;
-height: 50vh;
+height: 40vh;
 
 `
 export const ItemListP = styled.p`
