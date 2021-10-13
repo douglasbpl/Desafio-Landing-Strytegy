@@ -32,23 +32,40 @@ background: transparent;
     border: 0;
     cursor: pointer;
     margin-right: .5rem;
+   
 
-        &:nth-child(1) {
+       &:nth-child(1) {
         font: 400 1.3125rem Paralucent, sans-serif;
         color: rgb(37, 41, 76);    
     }
+            &:nth-child(1):hover {
+                border-bottom: 3px solid;    
+            }
+    
     
         &:nth-child(2) {
             font: 400 1.3125rem Paralucent, sans-serif;
             color: rgb(37, 41, 76);
         }
+            &:nth-child(2):hover {
+                border-bottom: 3px solid;            
+                
+            }
     
         &:nth-child(3) {
             background-color: rgb(255, 235, 151);
             width: 130px;
             height: 40px;
             border-radius:5%;
+            
         }
+
+        &:nth-child(3):hover {
+            background-color: #ffce06;
+            transition: background-color 1s 0s;    
+            }
+        
+
         &:nth-child(4) {
             width: 30px;
             height: 30px;

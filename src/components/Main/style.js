@@ -118,23 +118,12 @@ flex-direction: column;
 width: 100%;
 background-color: rgb(34, 37, 75);
 `
-export const BoxMenuCentral = styled.div`
-display:flex;
-align-items: center;
-justify-content: center;
-width:63%;
-height:10vh;
-border-radius: 4px;
-background-color:white;
-position: relative;
-    bottom: 50px;
-`
+
 export const Item = styled.ul`
     list-style: none;  
     align-itens: center;
-    position: absolute;
-    top: 50px;
-    left: 50%;
+    position: relative;
+    left:35%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -168,7 +157,7 @@ width: 0.2%;
 height: 40%;
 background-color: rgb(34, 37, 75);
 position: relative;
-top: 30px;`
+`
 
 export const ButtonMC = styled.p`
 display: flex;
