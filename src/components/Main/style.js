@@ -134,7 +134,7 @@ export const Item = styled.ul`
     justify-content: space-between;
     align-items: center;
     max-width: 1440px;
-    width: 100%;
+    width: 90%;
     height: 6.3125rem;
     margin: 0px;
     padding: 0.5rem;
@@ -382,7 +382,6 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
       align-items: center;
-    -webkit-box-pack: justify;
     justify-content: space-between;
     width: 80%;
     margin: 0px auto;
@@ -394,8 +393,6 @@ export const Container = styled.div`
 export const Image = styled.img`
 width: 50%;
 margin: 3rem 0px;
-animation: 3s ease 0s 1 normal none running fdBcwW;
-opacity: 1;
 `;
 
 export const ListP = styled.div`
@@ -403,10 +400,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 width: 80%;
-margin: 1.5rem 0px 0.5rem;
-animation: 3.5s ease 0s 1 normal none running fdBcwW;
-opacity: 1;
-height: 40vh;
+height: 54vh;
+justify-content: center;
 
 `
 export const ItemListP = styled.p`

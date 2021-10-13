@@ -27,7 +27,6 @@ font-weight: bolder;
 `
 
 export const ImgUser = styled.img`
-width: 3vw;
 height: 8vh;
 border-radius: 50%;
 `
@@ -53,6 +52,7 @@ export const BoxImgUser = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
+width: 7%;
 `
 export const BoxInfoUser = styled.div`
 margin-left:2rem;

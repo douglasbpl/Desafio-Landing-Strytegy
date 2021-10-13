@@ -24,7 +24,7 @@ export const Menu = styled.nav`
  display: flex;
  align-items: center;
  justify-content: space-around;
- width:20%;
+ width:24vw;
  `
 
 export const BtInf = styled.button`
