@@ -29,7 +29,7 @@ export function Main({ TTL, PGH, BtStart, ImgFiSection, Sbtt, ParagraphFeat, Par
             </S.SecondSection>
 
             <S.ThirdSection>
-                
+            <S.MenuBoxTS>
                     <S.Item>
                         <S.ListItem><S.ButtonMC>{ListItemOne}</S.ButtonMC></S.ListItem>
                         <S.Divide></S.Divide>
@@ -39,6 +39,7 @@ export function Main({ TTL, PGH, BtStart, ImgFiSection, Sbtt, ParagraphFeat, Par
                         <S.Divide></S.Divide>
                         <S.ListItem><S.ButtonMC>{ListItemFour}</S.ButtonMC></S.ListItem>
                     </S.Item>
+            </S.MenuBoxTS>
                 
                 <S.ContainerGifTxt>
                     <S.BoxGif>

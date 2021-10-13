@@ -119,14 +119,17 @@ width: 100%;
 height:75vh;
 background-color: rgb(34, 37, 75);
 `
-
+export const MenuBoxTS = styled.div`
+width: 100%;
+display: flex;
+align-items: center;`
 
 export const Item = styled.ul`
     list-style: none;  
     align-itens: center;
-    position: absolute;
+    position: relative;
     left: 50%;
-    top: 127%;
+    bottom:50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -294,13 +297,10 @@ export const SixthSection = styled.section`
 display: flex;
 justify-content: center;
 align-items: center;
-max-width: 59.4vw;
-width: 60%;
+width: 100%;
 flex-direction: row;
 position: relative;
-bottom: 97px;
-left: 20.25%;
-height: 68vh;
+    bottom: 97px;
     
 `
 export const ContainerBoxCards = styled.div`
